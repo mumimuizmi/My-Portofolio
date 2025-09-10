@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Icon CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">PORTFOLIO</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#biography">Identity</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="content">
+      <h3>FRONT END WEB DEVELOPER</h3>
+      <h1><span >MUHAMMAD</span>FAIZ AZMI</h1>
+      <p>
+        Odit, deleniti, beatae odio amet libero quidem dolore nulla
+        eveniet laudantium aperiam magni eos molestias fuga impedit?
+      </p>
+      <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="me.png.jpg" alt="Profile">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+<section id="service" class="services">
+  <h2>OUR SERVICE</h2>
+  <div class="service-container">
+    <div class="service-box">
+      <i class="fas fa-paint-brush"></i>
+      <h3>Web Design</h3>
+      <p>Designing visually appealing and user-friendly websites tailored to your brand.</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-pencil-ruler"></i>
+      <h3>UI/UX</h3>
+      <p>Creating intuitive interfaces and seamless user experiences for web and mobile apps.</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-code"></i>
+      <h3>Web Development</h3>
+      <p>Building fast, responsive, and modern websites with clean and efficient code.</p>
+    </div>
+
+    <div class="service-box">
+      <i class="fas fa-bullhorn"></i>
+      <h3>Branding</h3>
+      <p>Helping you build a strong brand identity with consistent visuals and messaging.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BIOGRAPHY SECTION -->
+<section id="biography" class="biography">
+  <h2>MY IDENTITY</h2>
+  <div class="bio-container">
+    
+
+    <div class="bio-image">
+      <img src="me.png.jpg" alt="Profile">
+    </div>
+    <!-- Deskripsi & Info -->
+    <div class="bio-content">
+      <p>
+        
+      </p>
+
+      <div class="bio-info">
+        <p><strong>Nama:</strong> Muhammad Faiz Azmi</p>
+        <p><strong>Email:</strong> faizazmi166@gmail.com</p>
+        <p><strong>Lahir:</strong> Denpasar, 26 Agustus 2008</p>
+        <p><strong>Telepon:</strong> 089519592195</p>
+        <p><strong>Pendidikan:</strong> SMK TI Bali Global Denpasar</p>
+        <p><strong>Pekerjaan:</strong> Pengangguran</p>
+      </div>
+    </div> 
+
+  </div>
+</section>
+
+<!-- SKILLS SECTION -->
+<section id="skills" class="skills">
+  <h2>MY SKILLS</h2><br>
+  <div class="skills-container">
+
+    <div class="skill">
+      <p>HTML/CSS</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 40%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>CSS</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 30%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>JavaScript</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 15%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>COC: Ex Liga Juara 1</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 70%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Mobile Legend: Ex Glori 71</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 90%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>Blood Strike: Legend</p>
+      <div class="progress">
+        <div class="progress-bar" style="width: 100%;"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+  <h2>GET IN TOUCH</h2>
+  <form id="contact-form" class="contact-form">
+    <input type="text" name="nama" placeholder="Nama" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <input type="text" name="subjek" placeholder="Subjek" required>
+  <textarea name="pesan" placeholder="Pesan..." required></textarea>
+
+    <button type="submit" class="btn-submit">Kirim Pesan</button>
+  </form>
+</section>
+
+
+</body>
+</html>
