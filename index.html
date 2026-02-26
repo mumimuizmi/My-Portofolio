@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mencegah terjemahan otomatis -->
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en" />
+    <title>My Portfolio</title>
+    <!-- Font Awesome 6 (free) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/Frame 3.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Sticky Navbar -->
+    <nav class="navbar">
+      <span class="logo">✦ Faiz.</span>
+      <div class="nav-links">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+      </div>
+    </nav>
+
+    <!-- Hero / home -->
+    <section id="home" class="hero show">
+      <div class="hero-content">
+        <h1>
+          <span class="gradient-text">Hi, I'm Muhammad Faiz</span><br />Azmi
+        </h1>
+        <div class="typewriter">
+          <span id="typewriter-text"></span>
+        </div>
+        <a href="#projects" class="cta-button"
+          >View My Work
+          <i class="fa-regular fa-paper-plane" style="margin-left: 8px"></i
+        ></a>
+
+        <div class="hero-social">
+            <a href="https://github.com/mumimuizmi" class="hero-social-link" aria-label="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/muizmi_?igsh=Z2Zlb2R2djcwMHJi" class="hero-social-link" aria-label="instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+      </div>
+    </section>
+
+    <!-- About + stats -->
+    <section id="about">
+      <h2 class="section-title gradient-text">About Me</h2>
+      <div class="aboutme">
+        <p style="font-size: 1.2rem; max-width: 700px">
+          I'm a creative full‑stack developer with a passion for smooth UI and
+          dark mode aesthetics. I turn ideas into interactive reality.
+        </p>
+      </div>
+      <div class="stats-container">
+        <div class="stat-item glass-card">
+          <span class="stat-number">10+</span><br />Projects
+        </div>
+        <div class="stat-item glass-card">
+          <span class="stat-number">1+</span><br />Years Exp
+        </div>
+        <div class="stat-item glass-card">
+          <span class="stat-number">8</span><br />Clients
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills with progress -->
+    <section id="skills">
+      <h2 class="section-title gradient-text">Tech Stack</h2>
+      <div class="skills-grid" id="skillsGrid">
+        <div class="skill-item" data-progress="90">
+          <div class="skill-header"><span>HTML</span><span>90%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 90%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="85">
+          <div class="skill-header"><span>CSS</span><span>85%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 85%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="80">
+          <div class="skill-header">
+            <span>JavaScript</span><span>80%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="75">
+          <div class="skill-header"><span>MySql</span><span>75%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 75%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="95">
+          <div class="skill-header">
+            <span>Adobe Photoshop</span><span>95%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 95%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="70">
+          <div class="skill-header"><span>WordPress</span><span>70%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 70%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="80">
+          <div class="skill-header"><span>Figma</span><span>80%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 80%"></div>
+          </div>
+        </div>
+        <div class="skill-item" data-progress="65">
+          <div class="skill-header"><span>PHP</span><span>65%</span></div>
+          <div class="progress-bar-bg">
+            <div class="progress-fill" style="width: 65%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects glassmorphism cards -->
+    <section id="projects">
+      <h2 class="section-title gradient-text">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card glass-card">
+          <div class="project-image">
+            <img src="assets/Capture1.PNG" alt="Project screenshot" />
+          </div>
+          <h3>SPA</h3>
+          <p>Analytics suite with realtime updates.</p>
+          <div class="project-links">
+            <a href="https://www.alalaamedspaboutique.com/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-image">
+            <img src="assets/Capture2.PNG" alt="Project screenshot" />
+          </div>
+          <h3>Tattoo</h3>
+          <p>Analytics suite with realtime updates.</p>
+          <div class="project-links">
+            <a href="https://www.royallineink.com/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="project-card glass-card">
+          <div class="project-image">
+            <img src="assets/Capture3.PNG" alt="Project screenshot" />
+          </div>
+          <h3>Ecommerce</h3>
+          <p>Analytics suite with realtime updates.</p>
+          <div class="project-links">
+            <a href="https://www.larisseleatherbali.com/"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <span style="color: #7b8cae">© 2025 · Muhammad Faiz Azmi</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
