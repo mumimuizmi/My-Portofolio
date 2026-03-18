@@ -1,6 +1,6 @@
 (function() {
             // typewriter effect
-            const words = ['Junior Front-End Developer', 'UI lover', 'Dark Mode Enthusiast', 'Soft Spoken', 'Info Balap Enthusiast'];
+            const words = ['Junior Full-Stack Developer', 'UI lover', 'Dark Mode Enthusiast'];
             let i = 0;
             let j = 0;
             let currentWord = '';
